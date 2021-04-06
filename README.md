@@ -60,4 +60,4 @@ Como posibles mejoras, la empresa contempla las siguientes:
 
 - Una sección de reseñas en las que el cliente pueda puntuar los platos. Estas reserñas se harán públicas para el resto de usuarios. 
 
-- Internacionalización. La empresa contempla el crecimeinto de su público objetivo y por lo tanto, la aplicación web podrá se traducida al inglés. 
+- Internacionalización. La empresa contempla el crecimeinto de su público objetivo y por lo tanto, la aplicación web podrá se traducida al inglés.

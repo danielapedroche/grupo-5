@@ -56,7 +56,7 @@ Registrándose, el usuario podrá realizar las siguientes acciones.
 
 Como posibles mejoras, la empresa contempla las siguientes:
 
-- Añadir una suscripción demanal en la que el cliente pague una cantidad fija de dinero y cada Lunes, le llegue una caja con todos los platos para la semana. 
+- Añadir una suscripción semanal en la que el cliente pague una cantidad fija de dinero y cada Lunes, le llegue una caja con todos los platos para la semana. 
 
 - Una sección de reseñas en las que el cliente pueda puntuar los platos. Estas reserñas se harán públicas para el resto de usuarios. 
 

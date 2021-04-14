@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+# grupo-5
+=======
 # grupo-5
 
 PROPUESTA DE PROYECTO GRUPAL - GRUPO 5 - HADA
@@ -61,3 +64,4 @@ Como posibles mejoras, la empresa contempla las siguientes:
 - Una sección de reseñas en las que el cliente pueda puntuar los platos. Estas reserñas se harán públicas para el resto de usuarios. 
 
 - Internacionalización. La empresa contempla el crecimeinto de su público objetivo y por lo tanto, la aplicación web podrá se traducida al inglés.
+>>>>>>> 1bbdb71e877fde9d514f8b4308890f6b63c35781

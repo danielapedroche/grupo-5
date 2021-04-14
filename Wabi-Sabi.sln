@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wabi-Sabi", "Wabi-Sabi\Wabi-Sabi.csproj", "{EA614DBC-528C-4E81-A217-11CB22BF6D04}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WabiSabiWeb", "Wabi-Sabi\WabiSabiWeb.csproj", "{EA614DBC-528C-4E81-A217-11CB22BF6D04}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WabiSabiLibrary", "WabiSabiLibrary\WabiSabiLibrary.csproj", "{B8EE667C-5263-4115-8974-527743C645AC}"
 EndProject

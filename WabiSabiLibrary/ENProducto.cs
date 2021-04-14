@@ -12,6 +12,26 @@ namespace WabiSabiLibrary
         private string nombre;
         private string descripcion;
         private float precio;
+        public int Codigo
+        {
+            get { return codigo; }
+            set { codigo = value; }
+        }
+        public string Nombre
+        {
+            get { return nombre; }
+            set { nombre = value; }
+        }
+        public string Descripcion
+        {
+            get { return descripcion; }
+            set { descripcion = value; }
+        }
+        public float Precio
+        {
+            get { return precio; }
+            set { precio = value; }
+        }
         public ENProducto()
         {
             codigo = 0;
@@ -33,8 +53,25 @@ namespace WabiSabiLibrary
             this.descripcion = producto.descripcion;
             this.precio = producto.precio;
         }
-        public string crear()
+        public void create()
         {
-            
+            CADProducto cad = new CADProducto();
+            cad.create(this);
         }
+        public void update()
+        {
+            CADProducto cad = new CADProducto();
+            cad.update(this);
+        }
+        public void delete()
+        {
+            CADProducto cad = new CADProducto();
+            cad.delete(this);
+        }
+        public void read()
+        {
+            CADProducto cad = new CADProducto();
+            cad.read(this);
+        }
+    }
 }

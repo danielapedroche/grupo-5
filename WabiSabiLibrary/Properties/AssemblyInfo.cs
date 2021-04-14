@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("WabiSabiBiblioteca")]
+[assembly: AssemblyTitle("WabiSabiLibrary")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("WabiSabiBiblioteca")]
+[assembly: AssemblyProduct("WabiSabiLibrary")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("356852fe-ae1d-4351-88e7-d0a38554dbed")]
+[assembly: Guid("b8ee667c-5263-4115-8974-527743c645ac")]
 
 // Version information for an assembly consists of the following four values:
 //

@@ -4,22 +4,27 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Configuration;
+using System.Data;
+using System.Data.Common;
 using System.Data.SqlClient;
+using System.Data.SqlTypes;
+
+
 
 
 namespace WabiSabiLibrary
 {
-    class CADOferta
+    class CADUsuario
     {
         private string constring;
-        public CADOferta()
+        public CADUsuario()
         {
             constring = ConfigurationManager.ConnectionStrings["DatabaseConnection"].ToString();
         }
-        public bool create(ENOferta en) { 
-     
+        public bool create(ENUsuario en)
+        {
             SqlConnection conn = new SqlConnection(constring);
-            string comando = "Insert Into [dbo].[Ofertas] (codigo,tipo, descripcion) " + "VALUES ('" + en.Codigo + en.Tipo + "', '" + en.Descripcion + ")";
+            string comando = "Insert Into [dbo].[Usuarios] (nif, email, contrasenya, nombre, apellidos,telefono, direccion, fechaNac) " + "VALUES ('" + en.Nif + "', '" + en.Email+ "', " + en.Contrasenya + en.Nombre + "', " + en.Apellidos + "', " + en.Telefono + "', " + en.Direccion + "', " + en.FechaNac.ToString() + ")";
             try
             {
                 conn.Open();
@@ -35,21 +40,25 @@ namespace WabiSabiLibrary
             }
             return true;
         }
-        public bool read(ENOferta en)
+        public bool read(ENUsuario en)
         {
             SqlConnection conn = new SqlConnection(constring);
-            String comando = "select * from [dbo].[Ofertas] where codigo='" + en.Codigo + "'";
+            String comando = "select * from [dbo].[Usuarios] where nif='" + en.Nif + "'";
             try
             {
                 conn.Open();
                 SqlCommand cmd = new SqlCommand(comando, conn);
                 SqlDataReader dr = cmd.ExecuteReader();
                 dr.Read();
-                if (int.Parse(dr["codigo"].ToString()) == en.Codigo)
+                if (int.Parse(dr["nif"].ToString()) == en.Nif)
                 {
-     
-                    en.Tipo = int.Parse(dr["tipo"].ToString());
-                    en.Descripcion = dr["descripcion"].ToString();
+                    en.Email = dr["email"].ToString();
+                    en.Nombre = dr["nombre"].ToString();
+                    en.Contrasenya= dr["contrasenya"].ToString();
+                    en.Direccion= dr["direccion"].ToString();
+                    en.Apellidos = dr["apellidos"].ToString();
+                    en.Telefono = dr["telefono"].ToString();
+                    en.FechaNac= dr["fechanac"].ToString();
                     dr.Close();
                     conn.Close();
                     return true;
@@ -62,10 +71,10 @@ namespace WabiSabiLibrary
                 return false;
             }
         }
-        public bool update(ENOferta en)
+        public bool update(ENUsuario en)
         {
             SqlConnection conn = new SqlConnection(constring);
-            string comando = "UPDATE [dbo].[Ofertas] " + "SET codigo = '" + en.Codigo + "',  tipo = " + en.Tipo + "', descripcion" + en.Descripcion +  "'";
+            string comando = "UPDATE [dbo].[Usuarios] " + "SET nombre = '" + en.Nombre + "',  email = " + en.Email + "', contrasenya= " + en.contrasenya + "', direccion = " + en.Direccion + "', apellidos = " + en.Apellidos + "', telefono = " + en.Telefono + "', fechanac = " + en.FechaNac + "where nif ='" + en.Nif + "'";
             try
             {
                 conn.Open();
@@ -83,10 +92,10 @@ namespace WabiSabiLibrary
             }
             return true;
         }
-        public bool delete(ENOferta en)
+        public bool delete(ENUsuario en)
         {
             SqlConnection conn = new SqlConnection(constring); ;
-            string comando = "Delete from [dbo].[Ofertas] where codigo = '" + en.Codigo + "'";
+            string comando = "Delete from [dbo].[Usuarios] where nif = '" + en.Nif + "'";
             try
             {
                 conn.Open();
@@ -104,6 +113,5 @@ namespace WabiSabiLibrary
             }
             return true;
         }
-
     }
 }

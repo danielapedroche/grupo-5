@@ -15,5 +15,29 @@ namespace WabiSabiLibrary
         {
             constring = ConfigurationManager.ConnectionStrings["miconexion"].ToString();
         }
+        public bool createPedido(ENPedido en)
+        {
+            SqlConnection conn = null;
+            String comando = "Insert into Pedido(Id,Fecha,Precio,Direccion,Estado) VALUES ('" + en.Id + "','" +
+                en.Fecha + "','" + en.Precio + "','" + en.Direccion + "','" + en.Estado + "')";
+
+            try
+            {
+                conn = new SqlConnection(constring);
+                conn.Open();
+                SqlCommand cmd = new SqlCommand(comando, conn);
+                cmd.ExecuteNonQuery();
+            }
+            catch (SqlException sqlex)
+            {
+                throw sqlex;
+            }
+            finally
+            {
+                if (conn != null) conn.Close(); // Se asegura de cerrar la conexión.
+            }
+
+            return true;
+        }
     }
 }

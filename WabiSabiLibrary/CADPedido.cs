@@ -40,7 +40,7 @@ namespace WabiSabiLibrary
 
             return true;
         }
-        public bool updateUsuario(ENPedido en)
+        public bool updatePedido(ENPedido en)
         {
             SqlConnection conn = null;
             String comando = "Update Pedido set fecha = '" + en.Fecha + "', precio = '" + en.Precio + "', Direccion = '" + en.Direccion + "', Estado = '" + en.Estado

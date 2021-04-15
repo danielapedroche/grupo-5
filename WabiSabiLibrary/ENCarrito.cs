@@ -34,7 +34,7 @@ namespace WabiSabiLibrary
         public bool readCarrito()
         {
             CADCarrito cad = new CADCarrito();
-            cad.readCarrito(this);
+            return cad.readCarrito(this);
         }
         public bool updateCarrito()
         {
@@ -45,7 +45,7 @@ namespace WabiSabiLibrary
         public bool deleteCarrito()
         {
             CADCarrito cad = new CADCarrito();
-            cad.deleteCarrito(this);
+            return cad.deleteCarrito(this);
         }
     }
 }

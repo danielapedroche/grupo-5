@@ -61,14 +61,6 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CADCarrito.cs" />
-    <Compile Include="CADPedido.cs" />
-    <Compile Include="CADProducto.cs" />
-    <Compile Include="ENCarrito.cs" />
-    <Compile Include="ENPedido.cs" />
-    <Compile Include="ENProducto.cs" />
-    <Compile Include="obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
-    <Compile Include="obj\Release\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

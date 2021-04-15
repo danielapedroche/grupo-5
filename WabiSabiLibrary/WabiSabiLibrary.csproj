@@ -61,10 +61,14 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CADMenu.cs" />
     <Compile Include="CADProducto.cs" />
     <Compile Include="CADReseña.cs" />
+    <Compile Include="CADSuscripcion.cs" />
+    <Compile Include="ENMenu.cs" />
     <Compile Include="ENProducto.cs" />
     <Compile Include="ENReseña.cs" />
+    <Compile Include="ENSuscripcion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -39,6 +39,75 @@ namespace WabiSabiLibrary
             }
             return true;
         }
-
+        public bool read(ENProducto en)
+        {
+            SqlConnection conn = new SqlConnection(constring);
+            String comando = "select * from [dbo].[Productos] where codigo='" + en.Codigo + "'";
+            try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand(comando, conn);
+                SqlDataReader dr = cmd.ExecuteReader();
+                dr.Read();
+                if (int.Parse(dr["codigo"].ToString()) == en.Codigo)
+                {
+                    en.Codigo = int.Parse(dr["codigo"].ToString());
+                    en.Nombre = dr["nombre"].ToString();
+                    en.Descripcion = dr["descripcion"].ToString();
+                    en.Precio = float.Parse(dr["precio"].ToString());
+                    dr.Close();
+                    conn.Close();
+                    return true;
+                }
+                return false;
+            }
+            catch (Exception)
+            {
+                conn.Close();
+                return false;
+            }
+        }
+        public bool update(ENProducto en)
+        {
+            SqlConnection conn = new SqlConnection(constring);
+            string comando = "UPDATE [dbo].[Productos] " + "SET nombre = '" + en.Nombre + "',  precio = " + en.Precio + "', descripcion" + en.Descripcion + "where codigo ='" + en.Codigo + "'";
+            try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand(comando, conn);
+                cmd.ExecuteNonQuery();
+            }
+            catch (Exception)
+            {
+                conn.Close();
+                return false;
+            }
+            finally
+            {
+                conn.Close();
+            }
+            return true;
+        }
+        public bool delete(ENProducto en)
+        {
+            SqlConnection conn = new SqlConnection(constring); ;
+            string comando = "Delete from [dbo].[Productos] where codigo = '" + en.Codigo + "'";
+            try
+            {
+                conn.Open();
+                SqlCommand cmd = new SqlCommand(comando, conn);
+                cmd.ExecuteNonQuery();
+            }
+            catch (Exception)
+            {
+                conn.Close();
+                return false;
+            }
+            finally
+            {
+                conn.Close();
+            }
+            return true;
+        }
     }
 }

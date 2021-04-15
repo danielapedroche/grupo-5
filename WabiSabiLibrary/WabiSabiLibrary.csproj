@@ -62,7 +62,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CADProducto.cs" />
+    <Compile Include="CADReseña.cs" />
     <Compile Include="ENProducto.cs" />
+    <Compile Include="ENReseña.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

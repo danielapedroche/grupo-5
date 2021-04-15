@@ -53,25 +53,25 @@ namespace WabiSabiLibrary
             this.descripcion = producto.descripcion;
             this.precio = producto.precio;
         }
-        public void create()
+        public bool create()
         {
             CADProducto cad = new CADProducto();
-            cad.create(this);
+            return cad.create(this);
         }
-        public void update()
+        public bool update()
         {
             CADProducto cad = new CADProducto();
-            cad.update(this);
+            return cad.update(this);
         }
-        public void delete()
+        public bool delete()
         {
             CADProducto cad = new CADProducto();
-            cad.delete(this);
+            return cad.delete(this);
         }
-        public void read()
+        public bool read()
         {
             CADProducto cad = new CADProducto();
-            cad.read(this);
+            return cad.read(this);
         }
     }
 }

@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+# grupo-5
+=======
 # grupo-5
 
 PROPUESTA DE PROYECTO GRUPAL - GRUPO 5 - HADA
@@ -8,7 +11,7 @@ COMPONENTES DEL GRUPO:
 - Francisco García Martinez
 - Jose Clavel Pérez-Seoane
 - Alejandro García Paterna
-- Daniela Pedroche van Deurzen
+- Daniela Pedroche van Deurzen (Coordinadora) 
 
 1. DESCRIPCIÓN
 
@@ -56,8 +59,9 @@ Registrándose, el usuario podrá realizar las siguientes acciones.
 
 Como posibles mejoras, la empresa contempla las siguientes:
 
-- Añadir una suscripción demanal en la que el cliente pague una cantidad fija de dinero y cada Lunes, le llegue una caja con todos los platos para la semana. 
+- Añadir una suscripción semanal en la que el cliente pague una cantidad fija de dinero y cada Lunes, le llegue una caja con todos los platos para la semana. 
 
 - Una sección de reseñas en las que el cliente pueda puntuar los platos. Estas reserñas se harán públicas para el resto de usuarios. 
 
-- Internacionalización. La empresa contempla el crecimeinto de su público objetivo y por lo tanto, la aplicación web podrá se traducida al inglés. 
+- Internacionalización. La empresa contempla el crecimeinto de su público objetivo y por lo tanto, la aplicación web podrá se traducida al inglés.
+

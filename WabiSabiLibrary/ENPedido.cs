@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WabiSabiLibrary
 {
-    class ENPedido
+    public class ENPedido
     {
         public float Precio
         {

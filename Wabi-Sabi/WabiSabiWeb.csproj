@@ -73,8 +73,7 @@
       <DependentUpon>Database.mdf</DependentUpon>
     </Content>
     <Content Include="Default.aspx" />
-=======
->>>>>>> Stashed changes
+    
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

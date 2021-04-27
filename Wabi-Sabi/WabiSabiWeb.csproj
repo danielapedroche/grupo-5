@@ -67,7 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
- >>>>>>> Updated upstream
+ Updated upstream
     <Content Include="App_Data\Database.mdf" />
     <Content Include="App_Data\Database_log.ldf">
       <DependentUpon>Database.mdf</DependentUpon>

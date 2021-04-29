@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Wabi_Sabi.Site1" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site2.master.cs" Inherits="Wabi_Sabi.Site2" %>
 
 <!DOCTYPE html>
 
@@ -12,11 +12,6 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            Pagina Wabi Sabi
-            <div>
-                    <h1>
-                    WABI SABI</h1>
-            </div>          
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </div>

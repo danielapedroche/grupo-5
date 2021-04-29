@@ -61,6 +61,26 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CAD\CADAlergenos.cs" />
+    <Compile Include="CAD\CADCarrito.cs" />
+    <Compile Include="CAD\CADMenu.cs" />
+    <Compile Include="CAD\CADOferta.cs" />
+    <Compile Include="CAD\CADOrden.cs" />
+    <Compile Include="CAD\CADPedido.cs" />
+    <Compile Include="CAD\CADProducto.cs" />
+    <Compile Include="CAD\CADReseña.cs" />
+    <Compile Include="CAD\CADSuscripcion.cs" />
+    <Compile Include="CAD\CADUsuario.cs" />
+    <Compile Include="EN\ENAlergenos.cs" />
+    <Compile Include="EN\ENCarrito.cs" />
+    <Compile Include="EN\ENMenu.cs" />
+    <Compile Include="EN\ENOferta.cs" />
+    <Compile Include="EN\ENOrden.cs" />
+    <Compile Include="EN\ENPedido.cs" />
+    <Compile Include="EN\ENProducto.cs" />
+    <Compile Include="EN\ENReseña.cs" />
+    <Compile Include="EN\ENSuscripcion.cs" />
+    <Compile Include="EN\ENUsuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

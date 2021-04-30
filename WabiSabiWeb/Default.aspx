@@ -1,28 +1,27 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="WabiSabiWeb.Default" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <style type="text/css">
+        .auto-style1 {
+            font-size: x-large;
+        }
+    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-<h1> Página de usuarios</h1>
-    <div>
-        <p>
-            NIF:<asp:TextBox ID="TextBox4" Textmode="SingleLine" Columns="30" runat="server"></asp:TextBox>
-        </p>
-        <p>
-            Nombre:<asp:TextBox ID="TextBox5" Textmode="SingleLine" Columns="30" runat="server"></asp:TextBox>
-        </p>
-        <p>
-            Edad:<asp:TextBox ID="TextBox6" Textmode="SingleLine" Columns="30" runat="server"></asp:TextBox>
-        </p>
-        <asp:Button ID="Button8" runat="server" Text="Leer" OnClick="Leer"/>
-        <asp:Button ID="Button9" runat="server" Text="Leer Primero" OnClick="LeerPrimero"/>
-        <asp:Button ID="Button10" runat="server" Text="Leer Anterior" OnClick="LeerAnterior"/>
-        <asp:Button ID="Button11" runat="server" Text="Leer Siguiente" OnClick="LeerSiguiente"/>
-        <asp:Button ID="Button12" runat="server" Text="Crear" OnClick="Crear"/>
-        <asp:Button ID="Button13" runat="server" Text="Actualizar" OnClick="Actualizar"/>
-        <asp:Button ID="Button14" runat="server" Text="Borrar" OnClick="Borrar"/>
+<h1 class="auto-style1"> BIENVENIDOS</h1>
+        <div>
+        <asp:Button ID="Button1" runat="server" Text="Alergenos" OnClick="Alergenos"/>
+        <asp:Button ID="Button2" runat="server" Text="Carrito" OnClick="Carrito"/>
+        <asp:Button ID="Button3" runat="server" Text="Menu" OnClick="Menu"/>
+        <asp:Button ID="Button4" runat="server" Text="Oferta" OnClick="Oferta"/>
+        <asp:Button ID="Button5" runat="server" Text="Orden" OnClick="Orden"/>
+        <asp:Button ID="Button6" runat="server" Text="Pedido" OnClick="Pedido"/>
+        <asp:Button ID="Button7" runat="server" Text="Producto" OnClick="Producto"/>
+        <asp:Button ID="Button8" runat="server" Text="Reseña" OnClick="Reseña"/>
+        <asp:Button ID="Button9" runat="server" Text="Suscripcion" OnClick="Suscripcion"/>
+        <asp:Button ID="Button10" runat="server" Text="Usuario" OnClick="Usuario"/>
 
         <br />
-        <asp:Label ID="Label1" runat="server"></asp:Label>
+        <asp:Label ID="LabelRespuesta" runat="server"></asp:Label>
 
     </div>
  </asp:Content>

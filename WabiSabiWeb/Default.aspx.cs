@@ -13,5 +13,46 @@ namespace WabiSabiWeb
         {
 
         }
+
+        protected void Alergenos(object sender, EventArgs e)
+        {
+
+        }
+        protected void Carrito(object sender, EventArgs e)
+        {
+
+        }
+        protected void Menu(object sender, EventArgs e)
+        {
+
+        }
+        protected void Oferta(object sender, EventArgs e)
+        {
+
+        }
+        protected void Orden(object sender, EventArgs e)
+        {
+
+        }
+        protected void Pedido(object sender, EventArgs e)
+        {
+
+        }
+        protected void Producto(object sender, EventArgs e)
+        {
+
+        }
+        protected void Reseña(object sender, EventArgs e)
+        {
+
+        }
+        protected void Suscripcion(object sender, EventArgs e)
+        {
+
+        }
+        protected void Usuario(object sender, EventArgs e)
+        {
+
+        }
     }
 }

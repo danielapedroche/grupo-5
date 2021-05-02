@@ -11,10 +11,10 @@
 <body>
     <form id="form1" runat="server">
      <div>
-            Alejandro Garcia Paterna 46081658P
+            Página principal WabiSabi
             <div>
                     <h1>
-                    HADA P3 - CURSO 2020/21</h1>
+                    WABI SABI</h1>
             </div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>

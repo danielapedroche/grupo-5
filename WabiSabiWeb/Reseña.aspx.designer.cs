@@ -33,6 +33,15 @@ namespace WabiSabiWeb
         protected global::System.Web.UI.WebControls.TextBox Contenido;
 
         /// <summary>
+        /// Control Leer.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Leer;
+
+        /// <summary>
         /// Control Crear.
         /// </summary>
         /// <remarks>
@@ -49,6 +58,15 @@ namespace WabiSabiWeb
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Actualizar;
+
+        /// <summary>
+        /// Control Borrar.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Borrar;
 
         /// <summary>
         /// Control LabelRespuesta.

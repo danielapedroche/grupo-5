@@ -17,6 +17,10 @@
         <asp:TextBox ID="Id" runat="server"  Width="173px"></asp:TextBox>
         <br />
         <br />
+        Nombre:
+        <asp:TextBox ID="Nombre" runat="server"  Width="173px"></asp:TextBox>
+        <br />
+        <br />
         Precio:
         <asp:TextBox ID="Precio" runat="server"  Width="173px"></asp:TextBox>
         <br />

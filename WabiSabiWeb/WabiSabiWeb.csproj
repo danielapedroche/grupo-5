@@ -68,7 +68,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Default.aspx" />
+    <Content Include="Oferta.aspx" />
     <Content Include="Producto.aspx" />
+    <Content Include="Usuario.aspx" />
     <Content Include="Web.config" />
     <Content Include="Suscripcion.aspx" />
   </ItemGroup>
@@ -79,6 +81,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Oferta.aspx.cs">
+      <DependentUpon>Oferta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Oferta.aspx.designer.cs">
+      <DependentUpon>Oferta.aspx</DependentUpon>
     </Compile>
     <Compile Include="Producto.aspx.cs">
       <DependentUpon>Producto.aspx</DependentUpon>
@@ -101,6 +110,13 @@
     </Compile>
     <Compile Include="Suscripcion.aspx.designer.cs">
       <DependentUpon>Suscripcion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Usuario.aspx.cs">
+      <DependentUpon>Usuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Usuario.aspx.designer.cs">
+      <DependentUpon>Usuario.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WabiSabiWeb", "Wabi-Sabi\WabiSabiWeb.csproj", "{EA614DBC-528C-4E81-A217-11CB22BF6D04}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WabiSabiLibrary", "WabiSabiLibrary\WabiSabiLibrary.csproj", "{B8EE667C-5263-4115-8974-527743C645AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WabiSabiWeb", "WabiSabiWeb\WabiSabiWeb.csproj", "{F1A18FC1-86D5-413D-9AFE-859EE2238A4D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EA614DBC-528C-4E81-A217-11CB22BF6D04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EA614DBC-528C-4E81-A217-11CB22BF6D04}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EA614DBC-528C-4E81-A217-11CB22BF6D04}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EA614DBC-528C-4E81-A217-11CB22BF6D04}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B8EE667C-5263-4115-8974-527743C645AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B8EE667C-5263-4115-8974-527743C645AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8EE667C-5263-4115-8974-527743C645AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8EE667C-5263-4115-8974-527743C645AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1A18FC1-86D5-413D-9AFE-859EE2238A4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1A18FC1-86D5-413D-9AFE-859EE2238A4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1A18FC1-86D5-413D-9AFE-859EE2238A4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1A18FC1-86D5-413D-9AFE-859EE2238A4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

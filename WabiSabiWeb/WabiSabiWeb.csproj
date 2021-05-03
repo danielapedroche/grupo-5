@@ -67,12 +67,30 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Content Include="Default.aspx" />
     <Content Include="Producto.aspx" />
+=======
+    <Content Include="Carrito.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="Oferta.aspx" />
+    <Content Include="Producto.aspx" />
+    <Content Include="Usuario.aspx" />
+>>>>>>> origin/develop
     <Content Include="Web.config" />
     <Content Include="Suscripcion.aspx" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
+=======
+    <Compile Include="Carrito.aspx.cs">
+      <DependentUpon>Carrito.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Carrito.aspx.designer.cs">
+      <DependentUpon>Carrito.aspx</DependentUpon>
+    </Compile>
+>>>>>>> origin/develop
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -80,6 +98,16 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+<<<<<<< HEAD
+=======
+    <Compile Include="Oferta.aspx.cs">
+      <DependentUpon>Oferta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Oferta.aspx.designer.cs">
+      <DependentUpon>Oferta.aspx</DependentUpon>
+    </Compile>
+>>>>>>> origin/develop
     <Compile Include="Producto.aspx.cs">
       <DependentUpon>Producto.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -90,6 +118,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site1.Master.cs">
       <DependentUpon>Site1.Master</DependentUpon>
+<<<<<<< HEAD
+=======
+      <SubType>ASPXCodeBehind</SubType>
+>>>>>>> origin/develop
     </Compile>
     <Compile Include="Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
@@ -101,6 +133,16 @@
     <Compile Include="Suscripcion.aspx.designer.cs">
       <DependentUpon>Suscripcion.aspx</DependentUpon>
     </Compile>
+<<<<<<< HEAD
+=======
+    <Compile Include="Usuario.aspx.cs">
+      <DependentUpon>Usuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Usuario.aspx.designer.cs">
+      <DependentUpon>Usuario.aspx</DependentUpon>
+    </Compile>
+>>>>>>> origin/develop
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

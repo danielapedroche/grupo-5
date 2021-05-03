@@ -15,13 +15,13 @@ namespace WabiSabiWeb
     {
 
         /// <summary>
-        /// Control Nº ID de la reseña.
+        /// Control Numero_resenya.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Nº ID de la reseña;
+        protected global::System.Web.UI.WebControls.TextBox Numero_resenya;
 
         /// <summary>
         /// Control Contenido.

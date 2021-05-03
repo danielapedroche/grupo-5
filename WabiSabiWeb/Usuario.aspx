@@ -3,7 +3,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
      <div>
-        <h1>Ofertas</h1>
+        <h1>Usuarios</h1>
     </div>
     <div>
         NIF

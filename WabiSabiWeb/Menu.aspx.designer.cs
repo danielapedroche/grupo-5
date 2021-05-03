@@ -15,14 +15,14 @@ namespace WabiSabiWeb
     {
 
         /// <summary>
-        /// Control Nº Id del menú .
+        /// Control Numero.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Nº Id del menú ;
-        
+        protected global::System.Web.UI.WebControls.TextBox Numero;
+
         /// <summary>
         /// Control Nombre.
         /// </summary>

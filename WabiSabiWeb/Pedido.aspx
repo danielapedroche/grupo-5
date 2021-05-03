@@ -8,7 +8,7 @@
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <p class="auto-style1">
+<p class="auto-style1">
         Resumen de tu pedido:</p>
     <p class="auto-style1">
         Domicilio: (Añadir domicilio del usuario)</p>
@@ -34,4 +34,6 @@
     <p class="auto-style1">
         <asp:Button ID="ConfirmarPedido" runat="server" Text="Confirmar Pedido" />
     </p>
-</asp:Content>
+
+    </asp:Content>
+

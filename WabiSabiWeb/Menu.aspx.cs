@@ -13,5 +13,22 @@ namespace WabiSabiWeb
         {
 
         }
+
+        protected void Read_Click(object sender, EventArgs e)
+        {
+
+        }
+        protected void Update_Click(object sender, EventArgs e)
+        {
+
+        }
+        protected void Create_Click(object sender, EventArgs e)
+        {
+
+        }
+        protected void Delete_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

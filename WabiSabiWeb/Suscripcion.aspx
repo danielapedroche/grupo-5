@@ -1,24 +1,21 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Reseña.aspx.cs" Inherits="WabiSabiWeb.Reseña" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Suscripcion.aspx.cs" Inherits="WabiSabiWeb.WebForm1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-<style type="text/css">
+      <style type="text/css">
         .auto-style1 {
             font-size: x-large;
         }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-     <div>
-        <h1>Reseña</h1>
+    <div>
+        <h1>Suscripciones</h1>
     </div>
     <div>
-        Id:
-        <asp:TextBox ID="Nº ID de la reseña" runat="server"  Width="173px"></asp:TextBox>
+        Tipo:
+        <asp:TextBox ID="Tipo" runat="server"  Width="173px"></asp:TextBox>
         <br />
         <br />
-        Contenido:
-        <asp:TextBox ID="Contenido" runat="server"  Width="173px"></asp:TextBox>
-        <br />
-         <asp:Button ID="Leer" runat="server" Text="Leer" OnClick="Leer_Click" />
+        <asp:Button ID="Leer" runat="server" Text="Leer" OnClick="Leer_Click" />
         &nbsp;
         <asp:Button ID="Crear" runat="server" Text="Crear" OnClick="Crear_Click"/>
         &nbsp;

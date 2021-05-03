@@ -11,26 +11,35 @@ namespace WabiSabiWeb
 {
 
 
-    public partial class Reseña
+    public partial class Oferta
     {
 
         /// <summary>
-        /// Control Nº ID de la reseña.
+        /// Control Codigo.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Nº ID de la reseña;
+        protected global::System.Web.UI.WebControls.TextBox Codigo;
 
         /// <summary>
-        /// Control Contenido.
+        /// Control Tipo.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Contenido;
+        protected global::System.Web.UI.WebControls.TextBox Tipo;
+
+        /// <summary>
+        /// Control Descripcion.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox Descripcion;
 
         /// <summary>
         /// Control Leer.

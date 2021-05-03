@@ -1,20 +1,18 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Menu.aspx.cs" Inherits="WabiSabiWeb.Menu" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-</asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
       <style type="text/css">
         .auto-style1 {
             font-size: x-large;
         }
     </style>
 </asp:Content>
-<asp:Content ID="Content4" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
      <div>
         <h1>Menu</h1>
     </div>
     <div>
         Id:
-        <asp:TextBox ID="Id" runat="server"  Width="173px"></asp:TextBox>
+        <asp:TextBox ID="Nº Id del menú " runat="server"  Width="173px"></asp:TextBox>
         <br />
         <br />
         Nombre:

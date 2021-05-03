@@ -11,70 +11,61 @@ namespace WabiSabiWeb
 {
 
 
-    public partial class Reseña
+    public partial class Pedido
     {
 
         /// <summary>
-        /// Control Nº ID de la reseña.
+        /// Control Efectivo.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Nº ID de la reseña;
+        protected global::System.Web.UI.WebControls.CheckBox Efectivo;
 
         /// <summary>
-        /// Control Contenido.
+        /// Control PayPal.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Contenido;
+        protected global::System.Web.UI.WebControls.CheckBox PayPal;
 
         /// <summary>
-        /// Control Leer.
+        /// Control Tarjeta.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Leer;
+        protected global::System.Web.UI.WebControls.CheckBox Tarjeta;
 
         /// <summary>
-        /// Control Crear.
+        /// Control Codigo.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Crear;
+        protected global::System.Web.UI.WebControls.TextBox Codigo;
 
         /// <summary>
-        /// Control Actualizar.
+        /// Control Observaciones.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Actualizar;
+        protected global::System.Web.UI.WebControls.TextBox Observaciones;
 
         /// <summary>
-        /// Control Borrar.
+        /// Control ConfirmarPedido.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Borrar;
-
-        /// <summary>
-        /// Control LabelRespuesta.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LabelRespuesta;
+        protected global::System.Web.UI.WebControls.Button ConfirmarPedido;
     }
 }

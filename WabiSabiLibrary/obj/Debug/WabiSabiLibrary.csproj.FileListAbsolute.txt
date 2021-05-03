@@ -1,0 +1,15 @@
+C:\Users\Administrator\Desktop\grupo-5-master\grupo-5-master\WabiSabiLibrary\bin\Debug\WabiSabiLibrary.dll
+C:\Users\Administrator\Desktop\grupo-5-master\grupo-5-master\WabiSabiLibrary\bin\Debug\WabiSabiLibrary.pdb
+C:\Users\Administrator\Desktop\grupo-5-master\grupo-5-master\WabiSabiLibrary\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\Administrator\Desktop\grupo-5-master\grupo-5-master\WabiSabiLibrary\bin\Debug\System.Security.AccessControl.dll
+C:\Users\Administrator\Desktop\grupo-5-master\grupo-5-master\WabiSabiLibrary\bin\Debug\System.Security.Permissions.dll
+C:\Users\Administrator\Desktop\grupo-5-master\grupo-5-master\WabiSabiLibrary\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\Administrator\Desktop\grupo-5-master\grupo-5-master\WabiSabiLibrary\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\Administrator\Desktop\grupo-5-master\grupo-5-master\WabiSabiLibrary\bin\Debug\System.Security.AccessControl.xml
+C:\Users\Administrator\Desktop\grupo-5-master\grupo-5-master\WabiSabiLibrary\bin\Debug\System.Security.Permissions.xml
+C:\Users\Administrator\Desktop\grupo-5-master\grupo-5-master\WabiSabiLibrary\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\Administrator\Desktop\grupo-5-master\grupo-5-master\WabiSabiLibrary\obj\Debug\WabiSabiLibrary.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\grupo-5-master\grupo-5-master\WabiSabiLibrary\obj\Debug\WabiSabiLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\grupo-5-master\grupo-5-master\WabiSabiLibrary\obj\Debug\WabiSabiLibrary.csproj.CopyComplete
+C:\Users\Administrator\Desktop\grupo-5-master\grupo-5-master\WabiSabiLibrary\obj\Debug\WabiSabiLibrary.dll
+C:\Users\Administrator\Desktop\grupo-5-master\grupo-5-master\WabiSabiLibrary\obj\Debug\WabiSabiLibrary.pdb

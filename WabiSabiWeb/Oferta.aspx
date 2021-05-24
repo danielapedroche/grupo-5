@@ -14,7 +14,7 @@
         <asp:TextBox ID="Tipo" runat="server"  Width="173px"></asp:TextBox>
         <br />
         <br />
-        Descripcion:
+        Descripcion
         <asp:TextBox ID="Descripcion" runat="server"  Width="173px"></asp:TextBox>
         <br />
         <br />
@@ -22,7 +22,7 @@
         &nbsp;
         <asp:Button ID="Crear" runat="server" Text="Crear" OnClick="Create_Click"/>
         &nbsp;
-        <asp:Button ID="Actualizar" runat="server" Text="Actualizar" OnClick="Update_Click"/>
+        <asp:Button ID="Actualizar" runat="server" Text="Actualizar" OnClick="Update_click"/>
         &nbsp;
         <asp:Button ID="Borrar" runat="server" Text="Borrar" OnClick="Delete_Click"/>
         <br />

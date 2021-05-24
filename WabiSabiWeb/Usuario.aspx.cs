@@ -18,7 +18,7 @@ namespace WabiSabiWeb
         {
 
         }
-        protected void Update_click(object sender, EventArgs e)
+        protected void Update_Click(object sender, EventArgs e)
         {
 
         }

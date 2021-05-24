@@ -12,19 +12,19 @@
     </div>
     <div>
         Id:
-        <asp:TextBox ID="Nº ID de la reseña" runat="server"  Width="173px"></asp:TextBox>
+        <asp:TextBox ID="Numero_resenya" runat="server"  Width="173px"></asp:TextBox>
         <br />
         <br />
         Contenido:
         <asp:TextBox ID="Contenido" runat="server"  Width="173px"></asp:TextBox>
         <br />
-         <asp:Button ID="Leer" runat="server" Text="Leer" OnClick="Leer_Click" />
+         <asp:Button ID="Leer" runat="server" Text="Leer" OnClick="Read_Click" />
         &nbsp;
-        <asp:Button ID="Crear" runat="server" Text="Crear" OnClick="Crear_Click"/>
+        <asp:Button ID="Crear" runat="server" Text="Crear" OnClick="Create_Click"/>
         &nbsp;
-        <asp:Button ID="Actualizar" runat="server" Text="Actualizar" OnClick="Actualizar_Click"/>
+        <asp:Button ID="Actualizar" runat="server" Text="Actualizar" OnClick="Update_Click"/>
         &nbsp;
-        <asp:Button ID="Borrar" runat="server" Text="Borrar" OnClick="Borrar_Click"/>
+        <asp:Button ID="Borrar" runat="server" Text="Borrar" OnClick="Delete_Click"/>
         <br />
         <asp:label ID="LabelRespuesta" runat="server" Text=" " />
     </div>

@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -10,6 +11,23 @@ namespace WabiSabiWeb
     public partial class Reseña : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void Read_Click(object sender, EventArgs e)
+        {
+
+        }
+        protected void Update_Click(object sender, EventArgs e)
+        {
+
+        }
+        protected void Create_Click(object sender, EventArgs e)
+        {
+
+        }
+        protected void Delete_Click(object sender, EventArgs e)
         {
 
         }

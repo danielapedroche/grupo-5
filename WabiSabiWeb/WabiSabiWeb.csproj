@@ -68,11 +68,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Default.aspx" />
+    <Content Include="Pedido.aspx" />
     <Content Include="Producto.aspx" />
     <Content Include="Carrito.aspx" />
     <Content Include="Default.aspx" />
+    <Content Include="Menu.aspx" />
     <Content Include="Oferta.aspx" />
+    <Content Include="Pedido.aspx" />
     <Content Include="Producto.aspx" />
+    <Content Include="Reseña.aspx" />
     <Content Include="Usuario.aspx" />
     <Content Include="Menu.aspx" />
     <Content Include="Reseña.aspx" />
@@ -94,12 +98,26 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Menu.aspx.cs">
+      <DependentUpon>Menu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Menu.aspx.designer.cs">
+      <DependentUpon>Menu.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Oferta.aspx.cs">
       <DependentUpon>Oferta.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Oferta.aspx.designer.cs">
       <DependentUpon>Oferta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pedido.aspx.cs">
+      <DependentUpon>Pedido.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pedido.aspx.designer.cs">
+      <DependentUpon>Pedido.aspx</DependentUpon>
     </Compile>
     <Compile Include="Producto.aspx.cs">
       <DependentUpon>Producto.aspx</DependentUpon>

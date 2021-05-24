@@ -7,11 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace WabiSabiWeb
 {
-    public partial class Pedido : System.Web.UI.Page
-    {
-        protected void Page_Load(object sender, EventArgs e)
-        {
+	public partial class Pedido : System.Web.UI.Page
+	{
+		protected void Page_Load(object sender, EventArgs e)
+		{
 
-        }
-    }
+		}
+	}
 }

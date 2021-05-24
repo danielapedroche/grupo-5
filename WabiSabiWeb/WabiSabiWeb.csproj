@@ -67,6 +67,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\WabiSabiBD.mdf" />
+    <Content Include="App_Data\WabiSabiBD_log.ldf">
+      <DependentUpon>WabiSabiBD.mdf</DependentUpon>
+    </Content>
     <Content Include="Default.aspx" />
     <Content Include="Pedido.aspx" />
     <Content Include="Producto.aspx" />

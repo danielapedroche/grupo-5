@@ -8,7 +8,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
      <div>
-        <h1>Suscripciones</h1>
+        <h1>Producto</h1>
     </div>
     <div>
         Codigo:
